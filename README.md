@@ -18,7 +18,7 @@ Here are some snapshots of the live application across different sections.
 The landing page features a dynamic introduction with smooth entrance animations.
 <br>
 <a href="https://portfolio-gigih.vercel.app">
-  <img src="/preview-hero.png" alt="Hero Section Preview" width="800" style="border-radius: 12px; border: 2px solid #e2e8f0; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+  <img src="public/preview-hero.png" alt="Hero Section Preview" width="800" style="border-radius: 12px; border: 2px solid #e2e8f0; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
 </a>
 
 ### Featured Projects
@@ -26,10 +26,10 @@ A curated showcase of selected works with detailed case studies fetched from the
 <br>
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <a href="https://portfolio-gigih.vercel.app#projects" style="flex: 1; min-width: 300px;">
-      <img src="/preview-projects.png" alt="Projects Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
+      <img src="public/preview-projects.png" alt="Projects Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
   </a>
   <a href="https://portfolio-gigih.vercel.app/about" style="flex: 1; min-width: 300px;">
-       <img src="/preview-skills.png" alt="Skills & Experience Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
+       <img src="public/preview-skills.png" alt="Skills & Experience Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
   </a>
 </div>
 
