@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Gigih Agung Portfolio
 
-## Getting Started
+Personal portfolio website built with the modern Next.js ecosystem. Designed to showcase projects, skills, and professional experience with high performance and dynamic data fetching.
 
-First, run the development server:
+![Portfolio Preview](https://via.placeholder.com/1200x600?text=Portfolio+Preview+Image) 
+*(Jangan lupa ganti link ini dengan screenshot website anda nanti)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **⚡ High Performance:** Built with Next.js App Router & Server Components.
+* **🎨 Dynamic UI:** Smooth animations using Framer Motion & Tailwind CSS.
+* **🗄️ Backend-less:** Fully integrated with **Supabase** for database & storage.
+* **📱 Responsive:** Optimized for all devices (Mobile, Tablet, Desktop).
+* **🔍 SEO Friendly:** Server-side rendering ensures content is crawlable.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animation:** [Framer Motion](https://www.framer.com/motion/)
+* **Database & Storage:** [Supabase](https://supabase.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Language:** TypeScript
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/USERNAME_ANDA/portfolio-gigih.git](https://github.com/USERNAME_ANDA/portfolio-gigih.git)
+    cd portfolio-gigih
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Setup Environment Variables:**
+    Create a `.env.local` file in the root directory and add your Supabase credentials:
+    ```env
+    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+    ```
 
-## Deploy on Vercel
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5.  Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+
+* `app/` - App Router pages and layouts.
+* `components/` - Reusable UI components.
+* `lib/` - Utility functions (Supabase client configuration).
+* `public/` - Static assets.
+
+## 🤝 Contact
+
+* **Email:** gigihagungprasetyo@gmail.com
+* **LinkedIn:** [Gigih Agung](https://linkedin.com/in/gigih-agung)
+
+---
+*Built with ❤️ by Gigih Agung Prasetyo*
