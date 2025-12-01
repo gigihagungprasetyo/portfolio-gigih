@@ -3,6 +3,8 @@ import Hero from "@/components/home/Hero";
 import AboutPreview from "@/components/home/AboutPreview";
 import ProjectsPreview from "@/components/home/ProjectsPreview";
 import Contact from "@/components/home/Contact";
+// 1. IMPORT TechMarquee DI SINI
+import TechMarquee from "@/components/home/TechMarquee"; 
 
 async function getHomepageProject() {
   const { data, error } = await supabase
@@ -29,8 +31,14 @@ export default async function Home() {
       className="h-screen w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth bg-white"
     >
       
-      <section className="h-screen w-full snap-start">
-        <Hero />
+      <section className="h-screen w-full snap-start relative flex flex-col">
+        <div className="grow">
+            <Hero />
+        </div>
+  
+        <div className="absolute bottom-0 w-full z-20">
+           <TechMarquee />
+        </div>
       </section>
 
       <section className="h-screen w-full snap-start">

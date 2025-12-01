@@ -1,65 +1,66 @@
-# 🚀 Gigih Agung Portfolio
+# 🚀 Gigih Agung - Fullstack Portfolio
 
-Personal portfolio website built with the modern Next.js ecosystem. Designed to showcase projects, skills, and professional experience with high performance and dynamic data fetching.
+![Vercel](https://vercelbadge.vercel.app/api/gigihagungprasetyo/portfolio-gigih)
+![Supabase](https://img.shields.io/badge/Database-Supabase-green)
+![Next.js](https://img.shields.io/badge/Framework-Next.js_15-black)
 
-![Portfolio Preview](https://via.placeholder.com/1200x600?text=Portfolio+Preview+Image) 
-*(Jangan lupa ganti link ini dengan screenshot website anda nanti)*
+A high-performance personal portfolio website built with the modern **Next.js App Router** ecosystem. Content is managed dynamically via a separate **Refine Headless Admin Panel** and stored in **Supabase**.
 
-## ✨ Features
+🔗 **Live Site:** [https://portfolio-gigih.vercel.app](https://portfolio-gigih.vercel.app)
 
-* **⚡ High Performance:** Built with Next.js App Router & Server Components.
-* **🎨 Dynamic UI:** Smooth animations using Framer Motion & Tailwind CSS.
-* **🗄️ Backend-less:** Fully integrated with **Supabase** for database & storage.
-* **📱 Responsive:** Optimized for all devices (Mobile, Tablet, Desktop).
-* **🔍 SEO Friendly:** Server-side rendering ensures content is crawlable.
+---
+
+## 📸 Gallery Preview
+
+Here are some snapshots of the live application across different sections.
+
+### Hero & Introduction
+The landing page features a dynamic introduction with smooth entrance animations.
+<br>
+<a href="https://portfolio-gigih.vercel.app">
+  <img src="/preview-hero.png" alt="Hero Section Preview" width="800" style="border-radius: 12px; border: 2px solid #e2e8f0; shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+</a>
+
+### Featured Projects
+A curated showcase of selected works with detailed case studies fetched from the database.
+<br>
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <a href="https://portfolio-gigih.vercel.app#projects" style="flex: 1; min-width: 300px;">
+      <img src="/preview-projects.png" alt="Projects Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
+  </a>
+  <a href="https://portfolio-gigih.vercel.app/about" style="flex: 1; min-width: 300px;">
+       <img src="/preview-skills.png" alt="Skills & Experience Preview" width="100%" style="border-radius: 12px; border: 2px solid #e2e8f0;">
+  </a>
+</div>
+
+---
+
+## ✨ Key Features
+
+* **⚡ Server-Side Rendering (SSR):** Optimized for SEO and initial load performance using Next.js Server Components.
+* **🎨 Modern UI/UX:** Crafted with **Tailwind CSS** and advanced animations using **Framer Motion**.
+* **🗄️ Dynamic Content:** All data (projects, experiences, skills) is fetched in real-time from **Supabase**.
+* **📱 Fully Responsive:** Adaptive design ensuring great experience on Mobile, Tablet, and Desktop.
+* **🔒 Type Safety:** Built entirely with robust **TypeScript** configurations.
 
 ## 🛠️ Tech Stack
 
-* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Animation:** [Framer Motion](https://www.framer.com/motion/)
-* **Database & Storage:** [Supabase](https://supabase.com/)
-* **Icons:** [Lucide React](https://lucide.dev/)
-* **Language:** TypeScript
+| Category | Technology |
+| :--- | :--- |
+| **Framework** | Next.js 15 (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **Animation** | Framer Motion |
+| **Database & Auth**| Supabase (PostgreSQL) |
+| **CMS/Admin** | Refine (Separate Repo) |
+| **Deployment** | Vercel |
 
-## 🚀 Getting Started
+## 🤝 Contact Me
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/USERNAME_ANDA/portfolio-gigih.git](https://github.com/USERNAME_ANDA/portfolio-gigih.git)
-    cd portfolio-gigih
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Setup Environment Variables:**
-    Create a `.env.local` file in the root directory and add your Supabase credentials:
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-    ```
-
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-
-5.  Open [http://localhost:3000](http://localhost:3000) with your browser.
-
-## 📂 Project Structure
-
-* `app/` - App Router pages and layouts.
-* `components/` - Reusable UI components.
-* `lib/` - Utility functions (Supabase client configuration).
-* `public/` - Static assets.
-
-## 🤝 Contact
+Feel free to reach out for collaborations or just a friendly chat.
 
 * **Email:** gigihagungprasetyo@gmail.com
-* **LinkedIn:** [Gigih Agung](https://linkedin.com/in/gigih-agung)
+* **LinkedIn:** [Gigih Agung Prasetyo](https://www.linkedin.com/in/gigih-agung-prasetyo-092772246/)
 
 ---
-*Built with ❤️ by Gigih Agung Prasetyo*
+*Developed by Gigih Agung Prasetyo.*
