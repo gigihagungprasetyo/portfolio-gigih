@@ -25,7 +25,7 @@ export default function PersonalStory() {
           >
             <div className="relative w-full max-w-[180px] sm:max-w-60 lg:max-w-md aspect-4/5 rounded-3xl lg:rounded-[40px] overflow-hidden shadow-2xl shadow-slate-200/50 border-4 border-white group">
                <Image
-                 src="/profile-about 2.png"
+                 src="/profile-about.png"
                  alt="Gigih Agung"
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
