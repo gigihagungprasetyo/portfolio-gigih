@@ -213,13 +213,13 @@ function TimelineItem({ data, index }: { data: ExperienceItem; index: number }) 
 
             <div className="relative z-10">
                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 overflow-hidden relative">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center shrink-0 overflow-hidden relative p-1"> 
                      {data.logo ? (
                         <Image 
                            src={data.logo} 
                            alt={data.company} 
                            fill 
-                           className="object-cover"
+                           className="object-contain" 
                            sizes="48px"
                         />
                      ) : (
@@ -227,8 +227,7 @@ function TimelineItem({ data, index }: { data: ExperienceItem; index: number }) 
                            {getInitials(data.company)}
                         </span>
                      )}
-                  </div>
-                  
+                  </div>    
                   <div>
                      <h3 className={`text-base lg:text-lg font-bold leading-tight group-hover:text-emerald-700 transition-colors ${
                         isCurrent ? "text-slate-900" : "text-slate-800"
