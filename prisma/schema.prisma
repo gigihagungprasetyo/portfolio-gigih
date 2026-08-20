@@ -1,0 +1,84 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Achievement {
+  id            Int      @id @default(autoincrement())
+  title         String
+  issuer        String
+  year          String
+  credentialUrl String?  @map("credential_url")
+  image         String?
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  @@map("achievements")
+}
+
+model Education {
+  id          Int      @id @default(autoincrement())
+  institution String
+  degree      String
+  major       String
+  year        String
+  gpa         Float?
+  logo        String?
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("educations")
+}
+
+model Experience {
+  id           Int       @id @default(autoincrement())
+  company      String
+  role         String
+  startDate    DateTime? @map("start_date")
+  endDate      DateTime? @map("end_date")
+  isCurrent    Boolean   @default(false) @map("is_current")
+  description  String?
+  technologies String[]  @default([])
+  logo         String?
+  location     String?
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  @@map("experiences")
+}
+
+model Project {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String
+  year        String
+  description String?
+  challenge   String?
+  solution    String?
+  thumbnail   String?
+  gallery     String[] @default([])
+  techStack   String[] @default([]) @map("tech_stack")
+  demoUrl     String?  @map("demo_url")
+  repoUrl     String?  @map("repo_url")
+  isFeatured  Boolean  @default(false) @map("is_featured")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("projects")
+}
+
+model Skill {
+  id        Int      @id @default(autoincrement())
+  name      String
+  category  String
+  iconUrl   String?  @map("icon_url")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("skills")
+}
