@@ -14,7 +14,7 @@ interface Project {
   title: string;
   slug: string;
   category: string;
-  year: number;
+  year: string;
   description: string;
   challenge: string | null;
   solution: string | null;

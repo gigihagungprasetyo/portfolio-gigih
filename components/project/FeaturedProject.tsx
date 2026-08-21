@@ -10,7 +10,7 @@ interface Project {
   title: string;
   slug: string;
   category: string;
-  year: number;
+  year: string;
   description: string;
   thumbnail: string | null;
   tech_stack: string[] | null;

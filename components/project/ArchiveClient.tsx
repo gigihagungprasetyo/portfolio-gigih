@@ -10,7 +10,7 @@ interface Project {
   title: string;
   slug: string;
   category: string;
-  year: number;
+  year: string;
   tech_stack: string[] | null;
   demo_url: string | null;
   repo_url: string | null;
