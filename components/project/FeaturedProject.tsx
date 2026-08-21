@@ -11,7 +11,7 @@ interface Project {
   slug: string;
   category: string;
   year: string;
-  description: string;
+  description: string | null;
   thumbnail: string | null;
   tech_stack: string[] | null;
   demo_url: string | null;
