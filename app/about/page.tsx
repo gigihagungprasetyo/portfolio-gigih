@@ -32,8 +32,8 @@ async function getExperiences(): Promise<ExperienceItem[]> {
       company: item.company,
       logo: item.logo,
       period: `${start} - ${end}`,
-      location: item.location,
-      description: item.description,
+      location: item.location ?? "",
+      description: item.description ?? "",
       technologies: item.technologies,
       isCurrent: item.isCurrent,
     };
