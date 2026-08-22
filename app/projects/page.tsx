@@ -6,6 +6,8 @@ import FilteredGallery from "@/components/project/FilteredGallery";
 import { prisma } from "@/lib/prisma";
 import { toProjectView } from "@/lib/mappers";
 
+export const dynamic = "force-dynamic";
+
 async function getProjects() {
   try {
     const projects = await prisma.project.findMany({

@@ -8,6 +8,8 @@ import SkillsExpertise from "@/components/about/SkillsExpertise";
 import ExperienceTimeline, { ExperienceItem } from "@/components/about/ExperienceTimeline";
 import EducationAchievements, { Education, Achievement } from "@/components/about/EducationAchievements";
 
+export const dynamic = "force-dynamic";
+
 async function getSkills() {
   return prisma.skill.findMany();
 }

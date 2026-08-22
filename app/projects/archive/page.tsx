@@ -4,6 +4,8 @@ import { toProjectView } from "@/lib/mappers";
 import ArchiveClient from "@/components/project/ArchiveClient";
 import Contact from "@/components/home/Contact";
 
+export const dynamic = "force-dynamic";
+
 // Fungsi ambil data di server (tanpa API Route)
 async function getProjects() {
   try {

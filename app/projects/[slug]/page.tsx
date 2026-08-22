@@ -4,6 +4,8 @@ import { prisma } from "@/lib/prisma";
 import { toProjectView } from "@/lib/mappers";
 import ProjectDetailClient from "@/components/project/ProjectDetailClient";
 
+export const dynamic = "force-dynamic";
+
 async function getProject(slug: string) {
   try {
     const project = await prisma.project.findUnique({ where: { slug } });

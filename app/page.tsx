@@ -6,6 +6,8 @@ import Contact from "@/components/home/Contact";
 // 1. IMPORT TechMarquee DI SINI
 import TechMarquee from "@/components/home/TechMarquee";
 
+export const dynamic = "force-dynamic";
+
 async function getHomepageProject() {
   try {
     const projects = await prisma.project.findMany({
