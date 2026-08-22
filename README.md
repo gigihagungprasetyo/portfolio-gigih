@@ -1,12 +1,6 @@
 # 🚀 Gigih Agung - Fullstack Portfolio
 
 ![Vercel](https://vercelbadge.vercel.app/api/gigihagungprasetyo/portfolio-gigih)
-![Supabase](https://img.shields.io/badge/Database-Supabase-green)
-![Next.js](https://img.shields.io/badge/Framework-Next.js_15-black)
-
-# 🚀 Gigih Agung - Fullstack Portfolio
-
-![Vercel](https://vercelbadge.vercel.app/api/gigihagungprasetyo/portfolio-gigih)
 ![Neon](https://img.shields.io/badge/Database-Neon_Postgres-00E599)
 ![Next.js](https://img.shields.io/badge/Framework-Next.js_16-black)
 ![Prisma](https://img.shields.io/badge/ORM-Prisma_7-2D3748)
@@ -112,14 +106,6 @@ prisma/
 5. Visit `http://localhost:3000/admin/login` to manage content.
 
 ## 🤝 Contact Me
-
-Feel free to reach out for collaborations or just a friendly chat.
-
-* **Email:** gigihagungprasetyo@gmail.com
-* **LinkedIn:** [Gigih Agung Prasetyo](https://www.linkedin.com/in/gigih-agung-prasetyo-092772246/)
-
----
-*Developed by Gigih Agung Prasetyo.*
 
 Feel free to reach out for collaborations or just a friendly chat.
 
