@@ -24,7 +24,7 @@ export default function Contact() {
   const socials = [
     { name: "GitHub", icon: Github, href: "https://github.com/gigihagungprasetyo", color: "hover:bg-white hover:text-slate-900" },
     { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/gigih-agung-prasetyo-092772246/", color: "hover:bg-blue-600 hover:text-white" },
-    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/saya_garie/", color: "hover:bg-pink-600 hover:text-white" },
+    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/saya_gigih/", color: "hover:bg-pink-600 hover:text-white" },
   ];
 
   const handleEmailClick = (e: React.MouseEvent) => {
