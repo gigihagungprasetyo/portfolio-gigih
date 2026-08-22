@@ -11,9 +11,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.1",
-    "@supabase/supabase-js": "^2.86.0",
     "@vercel/blob": "^2.8.0",
-    "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
     "clsx": "^2.1.1",
     "csv-parse": "^7.0.2",
